@@ -33,26 +33,28 @@ ul.list-group{
     width: 50% !important;
 }
 .bestof {
-    display: flex;
-    
-    
+    display: flex;   
 }
 #brani{
     width: 25%;
-    
     margin-top: 50px !important;
     margin-left: 50px !important;
     font-weight: bold;
-    
+       
 }
 #immaginequeen {
-    text-align:end;
+    display: block;
     margin-top: 50px !important;
+    margin-inline: 40%;
     width: 25% !important;
-    
+    text-align: center !important;
+    display: flex;  
 }
 #immagineLogo{
-    width:100% ; 
+    width:100%; 
+    object-fit: cover;
+    flex: 2 1 500px;
+
 }
 footer{
     margin-top: 20px;
@@ -63,4 +65,24 @@ footer{
     padding-top: 40px;
     color: white;
     font-weight: bold;
+}
+#link{
+  color: white;  
+  text-decoration:none;
+}
+
+#button{
+    text-align: end;
+    margin-bottom: 50px;
+}
+#special{
+    margin-top: 50px;
+}
+#special span {
+    font-weight: bold;
+    margin-left: 20px;
+}
+#brani .list-group{
+    --bs-list-group-item-padding-x: 0;
+    --bs-list-group-item-padding-y: 0;
 }
